@@ -17,6 +17,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#这段代码定义了 Emu3Config 类，它是一个用于 Emu3Model 的配置类。该类继承自 PretrainedConfig，用于存储和管理模型的配置参数。
+#在初始化时，Emu3Config 会根据指定的参数创建一个 Emu3Model 配置，定义了该模型的架构和其他重要的设置。
+
 """ Emu3 model configuration"""
 
 from typing import Optional
