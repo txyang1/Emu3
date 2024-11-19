@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+#Emu3FeatureDataset 是一个自定义的数据集类，继承自 PyTorch 的 Dataset 类，用于加载图像和文本数据，
+#特别是为了处理与 Emu3VisionVQ 模型配合使用的视觉-文本数据。这个数据集会从文件加载图像和文本数据，并使用 Emu3Tokenizer 对这些数据进行预处理，最终生成可以供模型训练使用的样本。
 import json
 import os.path as osp
 import random
