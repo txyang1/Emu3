@@ -12,6 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#这段代码定义了一个名为 Emu3Tokenizer 的类，它是一个为 Emu3 模型设计的分词器。这个分词器基于 tiktoken 库，用于将文本和图像相关的 token 转换为模型可以处理的格式。
 """Tokenization classes for Emu3."""
 
 import base64
