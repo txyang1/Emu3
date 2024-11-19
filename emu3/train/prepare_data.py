@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+#该脚本的主要作用是从一个指定的数据路径加载图像和文本数据，
+#并将这些数据转换成模型所需的 token，最终保存为指定路径。主要步骤包括图像处理、token 生成、数据保存等。下面详细解析各部分内容。
 import argparse
 import json
 import os
