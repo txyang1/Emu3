@@ -12,6 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#这段代码定义了 Emu3VisionVQConfig 类，它继承自 PretrainedConfig，用于存储和管理 Emu3VisionVQ 模型的配置。
+#通过该配置类，可以定义模型的各类架构参数，如编码器和解码器的通道数、卷积块的数量等。
 """ Emu3VisionVQ model configuration """
 
 from typing import List
