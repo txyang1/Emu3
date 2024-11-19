@@ -11,6 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#段代码是 Emu3VisionVQ 模块的导入逻辑。它根据是否安装了必要的依赖（如 PyTorch 和 Vision 库）来动态决定是否导入相关模块。
+#这样做的目的是为了优化依赖加载，只在需要的时候加载相关的组件，从而减小模块的启动时间和内存占用。
 from typing import TYPE_CHECKING
 
 from transformers.utils import (
