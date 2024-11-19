@@ -12,6 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#这段代码定义了一个 Emu3PrefixConstrainedLogitsHelper 类，它是用于在 Emu3 模型中进行前缀约束的帮助类。
+#它主要用于处理与图像输入相关的特殊 token，确保在图像生成过程中，输入的每个位置（比如图像的每个像素）都有合适的约束。
+#这些约束主要体现在生成 token 时的选择，特别是图像相关的 token。
 """ Logits Processor Helper class for Emu3. """
 
 import torch
