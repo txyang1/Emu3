@@ -11,6 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#这段代码是用于实现条件导入和懒加载的一种方式，通常出现在 Python 库中，用于根据系统环境或依赖库的可用性决定是否导入某些模块。
+#它的作用是在某些条件下延迟加载模块，减少不必要的依赖导入。
+
 from typing import TYPE_CHECKING
 
 from transformers.utils import (
