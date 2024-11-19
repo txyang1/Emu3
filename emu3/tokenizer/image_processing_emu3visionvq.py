@@ -12,6 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#Emu3VisionVQImageProcessor 类是用于预处理图像以便输入 Emu3VisionVQ 模型的图像处理类。它提供了多个配置选项，可以控制图像的大小调整、归一化、颜色转换等处理方式。
 """Image processor class for Emu3VisionVQ."""
 
 
