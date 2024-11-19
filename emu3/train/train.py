@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+#该脚本实现了一个训练流程，用于训练 Emu3 模型，包含了模型和数据的配置、训练参数的设置，以及训练过程的执行。
+#它使用了 transformers 库提供的 Trainer 类来简化训练过程。
 from dataclasses import dataclass, field
 import os
 import os.path as osp
