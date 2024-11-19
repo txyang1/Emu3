@@ -12,6 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#mu3Processor 类是为 Emu3 模型设计的多模态处理器，旨在处理文本和图像输入，并为模型提供准备好的数据。
+#它将 Emu3VisionVQModel、Emu3VisionVQImageProcessor 和 Emu3Tokenizer 三个模块结合在一起，提供了图像理解和文本生成的功能
 """ Processor class for Emu3. """
 
 from math import ceil
