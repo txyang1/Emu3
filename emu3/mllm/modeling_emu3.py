@@ -20,6 +20,8 @@
 #
 # Adapted from https://github.com/huggingface/transformers/blob/52daf4ec768fb9ffe84a0c373834172a7c54aecc/src/transformers/models/llama/modeling_llama.py
 #
+#这段代码定义了 Emu3 模型的 PyTorch 实现的一部分，主要涉及模型的核心构建块、注意力掩码的处理以及与 Emu3Config 配置相关的一些操作。
+
 """ PyTorch Emu3 model."""
 import math
 import warnings
