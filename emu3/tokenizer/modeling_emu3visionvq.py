@@ -12,6 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#Emu3VisionVQ模型是一个用于视觉数据（特别是视频或图像数据）的神经网络架构，设计时特别考虑了向量量化（VQ）处理。
+#这段代码实现了多个专门的组件，包括因果卷积、残差块、下采样、上采样以及自定义激活函数等。
 """ Emu3VisionVQ model """
 
 import math
